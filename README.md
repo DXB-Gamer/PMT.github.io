@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>Pocket Money Tracker</title>
 
-  <!-- Favicon with PMT in white, bold, italic, cache-busted -->
-  <link rel="icon" href="PMT-favicon.png?v=1" type="image/png">
+  <!-- Favicon using your PNG from GitHub -->
+  <link rel="icon" href="https://github.com/user-attachments/assets/8dd03411-8873-45d3-8d03-79c7f754e5b3" type="image/png">
 </head>
 <body>
 
