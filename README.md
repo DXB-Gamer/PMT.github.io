@@ -1,4 +1,6 @@
-<html lang="en">
+<body>
+    <!-- # Your code -->
+    <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -212,6 +214,30 @@ function setHover(c){ document.documentElement.style.setProperty('--hover-border
 
 calculate();
 </script>
-Made by : DXB-Gamer https://github.com/DXB-Gamer
+
 </body>
 </html>
+
+
+    <!-- # Developers Button -->
+    <a href="https://github.com/DXB-Gamer" target="_blank" class="profile-link">Developers Profile</a>
+
+    <style>
+      .profile-link {
+        color: #fff;
+        background: #1e90ff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+        box-shadow: 0 0 5px #1e90ff;
+        display: inline-block;
+        margin-top: 20px; /* space from elements above */
+      }
+      .profile-link:hover {
+        box-shadow: 0 0 20px #00ffea;
+        transform: scale(1.1);
+      }
+    </style>
+</body>
