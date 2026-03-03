@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +6,7 @@
 <body>
 
   <!-- # Site Icon in Top Left -->
-  <img src="PUT YOUR PNG HERE" 
+  <img src="PUT YOUR PMT ICON PNG HERE" 
        alt="PMT Icon" 
        style="position: fixed; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 1000;">
 
@@ -232,8 +231,17 @@ calculate();
   <!-- # Our Team Section -->
   <h2 style="color: #1e90ff; text-align: center; margin-top: 50px;">Our Team</h2>
 
-  <!-- # Developers Button -->
-  <a href="https://github.com/DXB-Gamer" target="_blank" class="profile-btn">Developers Profile</a>
+  <!-- # Developers Button + Profile PNG -->
+  <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 20px;">
+    <a href="https://github.com/DXB-Gamer" target="_blank" class="profile-btn">
+      Developers Profile
+    </a>
+    <!-- Profile picture placeholder -->
+    <img src="https://github.com/user-attachments/assets/be5058fd-50b7-4ec6-bf8c-8c0dd6e09681
+      " 
+         alt="Dev Profile" 
+         style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #1e90ff;">
+  </div>
 
   <!-- # Designers/Artists Button (placeholder for later) -->
   <!-- <a href="https://github.com/DesignerName" target="_blank" class="profile-btn">Designers Profile</a> -->
@@ -250,7 +258,6 @@ calculate();
       background: linear-gradient(90deg, rgba(30,144,255,0.2), rgba(30,144,255,0.1));
       box-shadow: 0 0 10px #1e90ff, 0 0 20px #00ffff;
       transition: all 0.3s ease;
-      margin: 10px;
     }
     .profile-btn:hover {
       color: #00ffff;
