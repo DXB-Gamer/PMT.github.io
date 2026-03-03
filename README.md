@@ -6,7 +6,7 @@
 <body>
 
   <!-- # Site Icon in Top Left -->
-  <img src="PUT YOUR PMT ICON PNG HERE" 
+  <img src=<img width="2000" height="2000" alt="PMT" src="https://github.com/user-attachments/assets/f6cad18b-38c7-47e2-ad99-bba53aaa9f4e" /> 
        alt="PMT Icon" 
        style="position: fixed; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 1000;">
 
