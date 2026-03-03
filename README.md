@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Pocket Money Tracker</title>
-
-  <!-- Favicon using your PNG from GitHub -->
-  <link rel="icon" href="https://github.com/user-attachments/assets/8dd03411-8873-45d3-8d03-79c7f754e5b3" type="image/png">
 </head>
 <body>
 
+  <!-- # Site Icon in Top Left -->
+  <img src="https://github.com/user-attachments/assets/8dd03411-8873-45d3-8d03-79c7f754e5b3" 
+       alt="PMT Icon" 
+       style="position: fixed; top: 10px; left: 10px; width: 50px; height: 50px; z-index: 1000;">
+
   <!-- # Your Pocket Money Tracker code goes here -->
-  <html lang="en">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -227,7 +229,6 @@ calculate();
 
 </body>
 </html>
-
   <!-- # Our Team Section -->
   <h2 style="color: #1e90ff; text-align: center; margin-top: 50px;">Our Team</h2>
 
@@ -244,7 +245,7 @@ calculate();
       font-weight: bold;
       color: #fff;
       text-decoration: none;
-      border: 2px solid #1e90ff; /* outline like your code */
+      border: 2px solid #1e90ff;
       border-radius: 8px;
       background: linear-gradient(90deg, rgba(30,144,255,0.2), rgba(30,144,255,0.1));
       box-shadow: 0 0 10px #1e90ff, 0 0 20px #00ffff;
