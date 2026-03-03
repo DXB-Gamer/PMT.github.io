@@ -1,6 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+</head>
 <body>
-    <!-- # Your code -->
-    <html lang="en">
+
+  <!-- # Your code -->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -219,25 +225,29 @@ calculate();
 </html>
 
 
-    <!-- # Developers Button -->
-    <a href="https://github.com/DXB-Gamer" target="_blank" class="profile-link">Developers Profile</a>
+  <!-- # Developers Button -->
+  <a href="https://github.com/DXB-Gamer" target="_blank" class="profile-btn">Developers Profile</a>
 
-    <style>
-      .profile-link {
-        color: #fff;
-        background: #1e90ff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 8px;
-        font-weight: bold;
-        transition: 0.3s;
-        box-shadow: 0 0 5px #1e90ff;
-        display: inline-block;
-        margin-top: 20px; /* space from elements above */
-      }
-      .profile-link:hover {
-        box-shadow: 0 0 20px #00ffea;
-        transform: scale(1.1);
-      }
-    </style>
+  <style>
+    .profile-btn {
+      display: inline-block;
+      padding: 12px 25px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #1e90ff; /* outline like your code */
+      border-radius: 8px;
+      background: linear-gradient(90deg, rgba(30,144,255,0.2), rgba(30,144,255,0.1));
+      box-shadow: 0 0 10px #1e90ff, 0 0 20px #00ffff;
+      transition: all 0.3s ease;
+      margin-top: 30px; /* space from content above */
+    }
+    .profile-btn:hover {
+      color: #00ffff;
+      box-shadow: 0 0 20px #1e90ff, 0 0 40px #00ffff, 0 0 60px #00ffff;
+      transform: scale(1.1);
+    }
+  </style>
+
 </body>
+</html>
