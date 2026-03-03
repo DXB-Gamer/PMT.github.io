@@ -212,6 +212,6 @@ function setHover(c){ document.documentElement.style.setProperty('--hover-border
 
 calculate();
 </script>
-
+Made by : DXB-Gamer https://github.com/DXB-Gamer
 </body>
 </html>
